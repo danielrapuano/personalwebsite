@@ -35,26 +35,32 @@
 }
 
 
-    #portfolioCarousel {
-      box-shadow: 0 8px 20px rgb(59, 59, 212);
-      border-radius: 0 0 10px 10px;
+#portfolioCarousel {
+  box-shadow: 0 8px 20px rgb(59, 59, 212);
+  border-radius: 0 0 10px 10px;
   }
+
+  .navbar .nav-link:hover {
+    text-decoration: underline;
+  }
+
 
   </style>
 </head>
 <body>
 
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg" style="background-color: rgb(59, 59, 212); box-shadow: rgba(59, 59, 212, 0.2);">
-  <div class="container">
-    <a class="navbar-brand" href="index.html">
-      <img src="images/siteLogo-negate.png" alt="Site Logo" width="30" height="30">
-    </a>
-    <div>
-      <a href="portfolio.html" class="text-white text-decoration-none">Portfolio</a>
-    </div>
+<nav class="navbar navbar-expand-lg px-4" style="background-color: rgb(59, 59, 212); box-shadow: rgba(59, 59, 212, 0.2);">
+  <a class="navbar-brand" href="index.html">
+    <img src="images/siteLogo-negate.png" alt="Site Logo" width="30" height="30">
+  </a>
+
+  <div class="d-flex ms-auto">
+    <a href="portfolio.html" class="nav-link text-white me-4">Portfolio</a>
+    <a href="https://docs.google.com/document/d/1ClsPPgi_Iko-abdvHyR-lzetCGBqWZGg1gmByiHWZiY/edit?tab=t.0" class="nav-link text-white">Application Redesign Report</a>
   </div>
 </nav>
+
 <br>
 
 <!-- Hero Section -->
@@ -64,9 +70,13 @@
       <div class="col-md-6">
         <h1 class="display-4">Daniel Rapuano</h1>
         <p class="lead text-decoration-underline">UI/UX Designer / Frontend Developer </p>
-        <p>Welcome to my personal website. It provides examples of my work located in the portfolio,  as well as insight into my background. Located at the bottom of the page
-        Within the portfolio page is a sample of projects I contributed to either collaboratively, following AGILE methodology and deadlines, as well various personal projects including Figma designs and protypes I've coded.</p>
+        <p>Welcome to my personal website. Here you will find examples of my work located in the portfolio below. At the bottom of the page is also a brief bio.
+        Within the portfolio page is a sample of solo/collaborative projects where I worked on the frontend, as well as figma designs/prototypes.
+        Additionally, you'll find a link to a brief report below about an ongoing redesign I am doing to my senior capstone project, which is an AI generative application known as "Campaign".
+          In the report I detail how I have further revised usablity post-graduation through UIUX principles.
+        </p>
         <a href="portfolio.html" class="btn btn-light mt-3 mb-4">Go to Portfolio</a>
+        <a href="https://docs.google.com/document/d/1ClsPPgi_Iko-abdvHyR-lzetCGBqWZGg1gmByiHWZiY/edit?tab=t.0" class="btn btn-light mt-3 mb-4">View a Redesign Report</a>
       </div>
       <div class="col-md-6 text-center">
         <img src="images/devs-dan-resize.jpg" alt="Daniel Rapuano" class="img-fluid rounded">
@@ -87,19 +97,19 @@
       <div id="portfolioCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner rounded shadow">
           <div class="carousel-item active">
-            <img src="images/QuikStockData.png" class="d-block w-100 img-fluid" alt="Project 1">
+            <img src="images/Home-After.png" class="d-block w-100 img-fluid" alt="Project 1">
           </div>
           <div class="carousel-item">
-            <img src="images/ShoppePants.png" class="d-block w-100 img-fluid" alt="Project 2">
+            <img src="images/ShoppeLanding.png" class="d-block w-100 img-fluid" alt="Project 2">
           </div>
           <div class="carousel-item">
-            <img src="images/add-campaign.jpg" class="d-block w-100 img-fluid" alt="Project 3">
+            <img src="images/QuikStockData.png" class="d-block w-100 img-fluid" alt="Project 3">
           </div>
           <div class="carousel-item">
-            <img src="images/ShoppeLanding.png" class="d-block w-100 img-fluid" alt="Project 4">
+            <img src="images/ShreddedHome.png" class="d-block w-100 img-fluid" alt="Project 4">
           </div>
           <div class="carousel-item">
-            <img src="images/campAIgn-landing.jpg" class="d-block w-100 img-fluid" alt="Project 5">
+            <img src="images/Generation-same.png" class="d-block w-100 img-fluid" alt="Project 5">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="prev">
@@ -125,8 +135,9 @@
         <p class="card-text mt-3">
           Computer science and human psychology are the apex of modern business. I understood this early on, now having degrees in both. I graduated
           in 2017 from the University of Connecticut with a BA in Psychological Sciences, and in 2024 from the Southern Connecticut State University
-          with a BS in Computer Science.  Throughout my education, when I wasn't studying, I was almost always working.  These jobs may have been 
-          menial, such as being a cook, or a cashier, but they taught me how to work under stress with a team efficeintly, as well as how to work with customers.
+          with a BS in Computer Science.  Throughout my education, when I wasn't studying, I was always working.  Every role I have had 
+          has been customer-service based in some capacity, whether it be in IT, retail, or food service, I have years of experience developing exceptional
+          communicative skills that allow me to effectively navigate customer experiences on a tailored level to meet individual needs, as well as collaborate with a team.
           </p>
 
           <p class ="card-text">
